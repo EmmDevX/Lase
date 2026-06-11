@@ -416,7 +416,7 @@
           </div>
         </div>
 
-          <!-- Friend Wish 6 - Maurice-->
+        <!-- Friend Wish 6 - Maurice-->
         <div class="vn-card" onclick="toggleVoiceNote('vn4', this)">
           <audio id="vn4" src="assets/maurice.ogg"></audio>
           <div class="vn-avatar">😍</div>
@@ -436,80 +436,49 @@
           </div>
           <div class="vn-shimmer"></div>
         </div>
-      </div>
-    </section>
 
-    <!-- Spin the Wheel Section -->
-    <section id="spin-wheel">
-      <h2
-        class="princess-title"
-        style="text-align: center; padding-top: 4rem; margin-bottom: 0.75rem"
-      >
-        SPIN THE WHEEL
-      </h2>
-      <p
-        class="subtitle pink-subtitle"
-        style="text-align: center; margin-bottom: 3rem"
-      >
-        Give it a spin and claim your prize! 🎡
-      </p>
-
-      <div class="elegant-wheel-container reveal">
-        <!-- Pointer arrow above wheel -->
-        <div class="pointer-container">
-          <span class="pointer-icon">▼</span>
-        </div>
-
-        <!-- Outer decorative rim (bulbs injected by JS) -->
-        <div class="wheel-rim" id="wheel-rim">
-          <!-- Spinning wheel -->
-          <div class="wheel-elegant" id="wheel-elegant">
-            <!-- Slice labels — centred in each 40° segment -->
-            <div class="slice-text st-1"><span>Spa Day 🧖‍♀️</span></div>
-            <div class="slice-text st-2"><span>Shopping 🛍️</span></div>
-            <div class="slice-text st-3"><span>Dinner Date 🍽️</span></div>
-            <div class="slice-text st-4"><span>Perfume 🌸</span></div>
-            <div class="slice-text st-5"><span>Jewelry 💎</span></div>
-            <div class="slice-text st-6"><span>Flowers 💐</span></div>
-            <div class="slice-text st-7"><span>Movie Night 🍿</span></div>
-            <div class="slice-text st-8"><span>Massage 💆‍♀️</span></div>
-            <div class="slice-text st-9">
-              <span class="teddy-slice"
-                >Teddy Bear
-                <span
-                  style="
-                    filter: sepia(1) hue-rotate(290deg) saturate(5)
-                      brightness(1.1);
-                  "
-                  >🧸</span
-                ></span
-              >
+        <!--Friend Wish 7- Deborah -->
+        <div class="vn-card" onclick="toggleVoiceNote('vn5', this)">
+          <audio id="vn5" src="assets/deborah.ogg"></audio>
+          <div class="vn-avatar">❤️</div>
+          <div class="vn-info">
+            <span class="vn-name">Deborah</span>
+            <span class="vn-tagline"
+              >A heart-moving birthday message from deborah</span
+            >
+            <div class="vn-play-row">
+              <div class="vn-icon"><i class="fa-solid fa-play"></i></div>
+              <div class="vn-wave">
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span><span></span>
+              </div>
+            </div>
+            <div class="visualizer-container">
+              <canvas class="vn-canvas"></canvas>
             </div>
           </div>
-
-          <!-- Centre spin button -->
-          <button class="center-spin-btn" id="elegant-spin-btn">SPIN!</button>
+          <div class="vn-shimmer"></div>
         </div>
 
-        <!-- Result popup -->
-        <div id="elegant-spin-result" class="hidden">
-          <h2 class="you-won-title">YOU WON!</h2>
-          <p id="elegant-prize-text"></p>
-          <p
-            style="font-size: 0.95rem; color: #c8dcff; margin: 0.5rem 0 1.5rem"
-          >
-            Screenshot this to claim your prize! 📸
-          </p>
-          <button
-            class="enter-btn"
-            onclick="
-              document
-                .getElementById('elegant-spin-result')
-                .classList.add('hidden')
-            "
-          >
-            Yay! 🎉
-          </button>
+        <!--Friends Wish 8 - Shalom -->
+        <div class="vn-card" onclick="toggleVoiceNote('vn6', this)">
+          <audio id="vn6" src="assets/shalom.ogg"></audio>
+          <div class="vn-avatar">🥰</div>
+          <div class="vn-info">
+            <span class="vn-name">Shalom</span>
+            <span class="vn-tagline">A family message from shalom</span>
+            <div class="vn-play-row">
+              <div class="vn-icon"><i class="fa-solid fa-play"></i></div>
+              <div class="vn-wave">
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span><span></span>
+              </div>
+            </div>
+            <div class="visualizer-container">
+              <canvas class="vn-canvas"></canvas>
+            </div>
+          </div>
+          <div class="vn-shimmer"></div>
         </div>
       </div>
     </section>
@@ -671,14 +640,12 @@
       </div>
     </section>
 
-   <footer>
-  <p>
-    ©2026 Lase Birthday Site<br>
-    All rights reserved. Made by EmmDevX
-  </p>
-</footer>
-
-   
+    <footer>
+      <p>
+        ©2026 Lase Birthday Site<br />
+        All rights reserved. Made by EmmDevX
+      </p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
