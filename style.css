@@ -3479,6 +3479,39 @@ h3,
       0 0 40px rgba(255,111,165,.3);
 }
 
+footer {
+  width: 100%;
+  padding: 20px 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08); /* optional */
+  backdrop-filter: blur(10px); /* optional */
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  footer {
+    padding: 18px 12px;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 600px) {
   .closing-letter {
     padding: 2rem 1.2rem;
